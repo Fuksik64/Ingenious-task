@@ -1,0 +1,3 @@
+1. I'm not sure if it is possible to listen to notifications events from InvoicesServiceProvider when provider implements `DeferrableProvider`. I decided to remove this interface from my provider. It would be nice if You will give me some feedback about this.
+2. Database inserts should be wrapped in transaction, but I didn't do it because I'm not sure if it is necessary in this case. Also, I think that there should be another module for this like `DataPersister` or something like that.
+3. 
